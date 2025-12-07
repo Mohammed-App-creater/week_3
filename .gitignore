@@ -1,4 +1,3 @@
-# Python
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -137,164 +136,59 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# PyCharm
-.idea/
-*.iml
-*.iws
-*.ipr
+# DVC
+/dvc.lock
+/.dvc/cache
+/.dvc/tmp
+/.dvc/plots
 
-# VSCode
+# Data files (tracked by DVC)
+/data/raw/*.csv
+/data/raw/*.xlsx
+/data/raw/*.parquet
+/data/processed/*.csv
+/data/processed/*.xlsx
+/data/processed/*.parquet
+
+# Model files
+/models/*.pkl
+/models/*.joblib
+/models/*.h5
+/models/*.pt
+
+# Large output files
+*.hdf5
+*.h5
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE specific
 .vscode/
-*.code-workspace
-
-# Sublime Text
+.idea/
 *.sublime-project
 *.sublime-workspace
 
-# Vim
-*.swp
-*.swo
-*~
+# Temporary files
+*.tmp
+*.bak
+*.backup
 
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-._*
+# Logs
+logs/
+*.log
 
-# Windows
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-*.stackdump
-[Dd]esktop.ini
-$RECYCLE.BIN/
-*.lnk
-
-# Linux
-*~
-.directory
-.Trash-*
-
-# Data files
-*.csv
-*.xlsx
-*.xls
-*.parquet
-*.feather
-*.h5
-*.hdf5
-*.pkl
-*.pickle
-*.joblib
+# Database
 *.db
 *.sqlite
 
-# Exceptions: Keep sample/example data
-!data/samples/*.csv
-!data/examples/*.csv
-
-# Large files
-*.zip
-*.tar.gz
-*.rar
-*.7z
-
-# Model files
-*.h5
-*.hdf5
-*.pb
-*.pt
-*.pth
-*.onnx
-*.tflite
-models/saved_models/*
-!models/saved_models/.gitkeep
-
-# DVC
-/dvc.lock
-/.dvc/tmp
-/.dvc/cache
-
-# Logs and databases
-*.log
-*.sql
-*.sqlite
-
-# OS generated files
-.DS_Store
-.DS_Store?
-
-# Temporary files
-*.tmp
-*.temp
-*.bak
-*.swp
-*.swo
-
-# Reports and outputs (optional - uncomment if you want to track these)
-# reports/figures/*.png
-# reports/figures/*.jpg
-# reports/*.html
-
-# Secrets and credentials
-.env
-.env.local
-.env.*.local
+# Secrets
+.secrets/
 secrets.yaml
 credentials.json
-*.pem
 *.key
-
-# Airflow
-airflow.cfg
-airflow.db
-airflow-webserver.pid
-logs/
-
-# MLflow
-mlruns/
-mlartifacts/
-
-# Weights & Biases
-wandb/
-
-# Prefect
-.prefect/
-
-# Dagster
-dagster_home/
-
-# Great Expectations
-uncommitted/
-
-# Kedro
-logs/
-data/**/
-!data/**/README.md
-!data/**/.gitkeep
-
-# Hydra
-outputs/
-multirun/
-.hydra/
-
-# Streamlit
-.streamlit/secrets.toml
-
-# FastAPI / Uvicorn
-*.pid
-
-# Docker
-*.env.docker
-docker-compose.override.yml
-
-# Terraform
-*.tfstate
-*.tfstate.*
-.terraform/
-.terraform.lock.hcl
-
-# Keep directory structure
-!.gitkeep
+*.pem
