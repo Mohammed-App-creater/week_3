@@ -41,3 +41,6 @@ great-expectations>=0.17.0
 # Reporting
 openpyxl>=3.1.2
 xlrd>=2.0.1
+
+# Parquet Support
+pyarrow>=13.0.0
