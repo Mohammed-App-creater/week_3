@@ -144,12 +144,15 @@ cython_debug/
 
 # Data files (tracked by DVC)
 /data/raw/*.csv
+/data/raw/*.txt
 /data/raw/*.xlsx
 /data/raw/*.parquet
 /data/processed/*.csv
+/data/processed/*.txt
 /data/processed/*.xlsx
 /data/processed/*.parquet
-
+/data/raw/MachineLearningRating_v3.txt 
+/data/raw/MachineLearningRating_v3.csv 
 # Model files
 /models/*.pkl
 /models/*.joblib
