@@ -13,6 +13,7 @@ statsmodels>=0.14.0
 # Machine Learning (for future tasks)
 scikit-learn>=1.2.2
 xgboost>=1.7.5
+shap>=0.41.0
 
 # Jupyter
 jupyter>=1.0.0
