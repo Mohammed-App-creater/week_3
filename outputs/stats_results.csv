@@ -1,0 +1,7 @@
+Hypothesis,Metric,Test,pValue,Reject
+Risk vs Province,Frequency,Chi-Square,1.9143280056423733e-05,True
+Risk vs Province,Severity,Kruskal-Wallis,5.0803491779161556e-12,True
+Risk vs ZipCode,Frequency,Chi-Square,0.0032093477432079648,True
+Margin vs ZipCode,Margin,Kruskal-Wallis,0.09749998904373161,False
+Risk vs Gender,Frequency,Chi-Square,0.44023619137780756,False
+Risk vs Gender,Severity,Mann-Whitney U,0.9838790387843791,False
